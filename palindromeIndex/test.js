@@ -1,27 +1,32 @@
 function palindromeIndex(s) {
 
-    function isPalindrome(arr) {
-        let reversed = [...arr].reverse().join("");
-        if (arr.join("") == reversed) { return true; }
+    function isPalindrome(str, i , j) {
+        let iStr = str.split("");
+        iStr.splice(i, 1);
+
+        let ireversed = [...iStr].reverse();
+
+        if (iStr.join("") == ireversed.join("")) { return i; }
+
+        else {
+            let jStr = str.split("");
+            jStr.splice(j, 1);
+
+            let jreversed = jStr.reverse();
+
+            if (jStr.join("") == jreversed.join("")) { return j; }
+
+            return -1;
+        }
     }
 
-    let strArr = s.split("");
-
-    if (isPalindrome(strArr)) { return -1; }
-
-    for (var i = 0; i < strArr.length; i++) {
-        let removed = strArr.splice(i, 1);
-
-        if (isPalindrome(strArr)) { return i; }
-
-        strArr.push(removed);
-
-        let temp = strArr[i];
-        strArr[i] = strArr[strArr.length - 1];
-        strArr[strArr.length - 1] = temp;
-
+    for (var i = 0; i < Math.floor(s.length / 2); i++) {
+        if (s[i] != s[s.length - 1 - i]) {
+            return isPalindrome(s, i, s.length - 1 - i);
         }
-    return -1; 
+    }
+
+    return -1;
 }
 
-console.log(palindromeIndex("bcbc"));
+console.log(palindromeIndex("bbbbcbbbc"));
