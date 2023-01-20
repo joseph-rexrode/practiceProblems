@@ -1,4 +1,4 @@
-package mergeSortedLists;
+package java.mergeSortedLists;
 
 public class Test {
     public static void main(String[] args) {

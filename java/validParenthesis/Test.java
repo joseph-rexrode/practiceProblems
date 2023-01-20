@@ -1,4 +1,4 @@
-package validParenthesis;
+package java.validParenthesis;
 
 public class Test {
     public static void main(String[] args) {
