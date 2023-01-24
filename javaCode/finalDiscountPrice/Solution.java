@@ -1,3 +1,4 @@
+package javaCode.finalDiscountPrice;
 class Solution {
     public int[] finalPrices(int[] prices) {
         // declare answer variable

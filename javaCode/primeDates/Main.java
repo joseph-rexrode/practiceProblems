@@ -1,4 +1,4 @@
-package java.primeDates;
+package javaCode.primeDates;
 public class Main {
 
     public static int month[];

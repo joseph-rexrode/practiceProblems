@@ -1,4 +1,4 @@
-package java.mergeSortedLists;
+package javaCode.mergeSortedLists;
 
 public class ListNode {
     int val;

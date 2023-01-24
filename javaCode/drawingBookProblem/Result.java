@@ -1,3 +1,4 @@
+package javaCode.drawingBookProblem;
 class Result {
 
     public int pageCount(int n, int p) {

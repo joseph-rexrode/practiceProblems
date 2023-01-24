@@ -1,4 +1,4 @@
-package java.mergeSortedLists;
+package javaCode.mergeSortedLists;
 
 public class Result {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

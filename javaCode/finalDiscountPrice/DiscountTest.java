@@ -1,4 +1,5 @@
-public class Test {
+package javaCode.finalDiscountPrice;
+public class DiscountTest {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] test = {8,4,6,2,3};
