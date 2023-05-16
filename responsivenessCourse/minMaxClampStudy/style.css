@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+:root {
+    --clr-primary: #ee6352;
+    --clr-body: #333;
+    --clr-bg: #ddd;
+    --clr-card: #fff;
+}
+
+body {
+    font-family: basic-sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: var(--clr-body);
+    background-color: var(--clr-bg);
+}
+
+.content {
+    background-color: var(--clr-card);
+    padding: 3em;
+    box-shadow: 0 0 3em rgba(0,0,0,0.2);
+    width: 70%;
+    /* can do math inside max/min functions as well */
+    /* width: max(70%, 500px) */
+}
+
+.title {
+    margin: 0 0 0.5em;
+    color: var(--clr-primary);
+    font-weight: 900;
+    line-height: 0.8;
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+}
+    /* ideal is in middle, will 'clamp'
+    at min and max values specified */
+
+p {
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
+}
