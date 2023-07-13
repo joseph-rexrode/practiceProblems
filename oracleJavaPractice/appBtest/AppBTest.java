@@ -1,4 +1,4 @@
-package oracleJavaPractice.appBtest;
+package oracleJavaPractice.AppBtest;
 
 public class AppBTest {
     public static void main(String[] args) {
