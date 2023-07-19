@@ -13,5 +13,8 @@ public class InitializationExample {
     public static void main(String[] args) {
         InitializationExample initial = new InitializationExample();
         System.out.println(initial.name);
+
+        final char a = 'a', d = 'D';
+        char grade = 'B';
     }
 }
