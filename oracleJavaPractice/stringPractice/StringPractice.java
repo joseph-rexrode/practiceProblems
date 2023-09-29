@@ -1,4 +1,4 @@
-package oracleJavaPractice.stringPractice;
+package stringPractice;
 
 public class StringPractice {
     public static void main(String[] args) {

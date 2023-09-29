@@ -1,4 +1,4 @@
-package oracleJavaPractice.passingData;
+package passingData;
 
 public class PassingData {
     public static void main(String[] args) {

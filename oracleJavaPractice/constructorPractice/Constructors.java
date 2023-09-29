@@ -1,4 +1,4 @@
-package oracleJavaPractice.constructorPractice;
+package constructorPractice;
 
 class Primate {
     public Primate() {

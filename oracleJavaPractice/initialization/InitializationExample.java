@@ -1,4 +1,4 @@
-package oracleJavaPractice.initialization;
+package initialization;
 
 
 public class InitializationExample {

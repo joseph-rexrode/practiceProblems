@@ -1,4 +1,4 @@
-package oracleJavaPractice.test1;
+package test1;
 
 public class test1 {
     public static void main(String[] args) {
